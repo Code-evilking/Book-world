@@ -1,0 +1,16 @@
+
+p{
+    margin: 50px; color: black ;
+    
+}
+body{
+    background-image: url("/image/book-world1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    div{
+        margin: 1%;
+        text-align: center;
+        text-shadow: 12px;
+        font-size:bolder;
+    }
