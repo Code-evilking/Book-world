@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Position</title>
+    <style>
+        .swim-container{
+            position: relative;
+            border: 2px solid salmon;
+        }
+        .box{
+            border: 2px dotted purple;
+            width: 400px;
+        }
+        /* .two{
+            position: relative;
+            left: 50px;
+            top: 30px;
+
+        } */
+        .two{
+            position: absolute;
+            top: 40px;
+            left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Css Position</h3>
+    <ol>
+        <!-- Flow Related -->
+        <li>Static</li>
+        <li>Relative</li>
+        <li>absolute</li>
+        <!-- Scroll related -->
+        <li>fixed</li>
+        <li>Sticky</li>
+    </ol>
+    <div class="swim-container">
+        <div class="box one"><img src="/image/main-img-1.png" alt=""></div>
+        <div class="box two"><img src="/image/main-img-2.png" alt=""></div>
+        <div class="box three"><img src="/image/main-img-3.png" alt=""></div>
+    </div>
+    
+</body>
+</html>
